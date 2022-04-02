@@ -1,3 +1,5 @@
+// Given a string s, return true if it is a palindrome, or false otherwise.
+
 // Link: https://leetcode.com/problems/valid-palindrome/
 
 function isPalindrome(s) {
