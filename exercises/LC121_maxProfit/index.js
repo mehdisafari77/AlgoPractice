@@ -6,9 +6,9 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 
 // Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
-// Time Complexity: 
+// Time Complexity: O(n)
 
-// Space Complexity: 
+// Space Complexity: O(1)
 
 var maxProfit = function(prices) {
     let maxProfit = 0;

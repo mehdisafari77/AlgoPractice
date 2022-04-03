@@ -6,9 +6,9 @@ Return the maximum amount of water a container can store. */
 
 // Link: https://leetcode.com/problems/container-with-most-water/
 
-// Time Complexity: 
+// Time Complexity: O(n)
 
-// Space Complexity: 
+// Space Complexity: O(1)
 
 var maxArea = function(H) {
     let ans = 0, i = 0, j = H.length-1
