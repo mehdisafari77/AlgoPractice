@@ -2,9 +2,9 @@
 
 // Link: https://leetcode.com/problems/contains-duplicate/
 
-// Time Complexity: O(N * M)
+// Time Complexity: O(n)
 
-// Space Complexity: O(N * M)
+// Space Complexity: O(n)
 
 const containsDuplicate = nums => {
     const visitedNums = {} // {7: true, 2: true} 
