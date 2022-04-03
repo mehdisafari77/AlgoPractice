@@ -6,9 +6,9 @@ You must write an algorithm that runs in O(n) time and without using the divisio
 
 // Link: https://leetcode.com/problems/contains-duplicate/
 
-// Time Complexity: O(N * M)
+// Time Complexity: O(n)
 
-// Space Complexity: O(N * M)
+// Space Complexity: O(1)
 
 const productExceptSelf = nums => {
     let output = nums.map(n => 1);
