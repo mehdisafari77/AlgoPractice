@@ -2,9 +2,9 @@
 
 // Link: https://leetcode.com/problems/meeting-rooms/
 
-// Time Complexity: O(log n)
+// Time Complexity: O(N log N)
 
-// Space Complexity: O(1)
+// Space Complexity: O(N)
 
 const canAttendMeetings = intervals => {
     const starts = [];
