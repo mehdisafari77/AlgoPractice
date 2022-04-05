@@ -4,9 +4,9 @@ Notice that the solution set must not contain duplicate triplets. */
 
 // Link: https://leetcode.com/problems/3sum/
 
-// Time Complexity: O(n)
+// Time Complexity: O(n2)
 
-// Space Complexity: O(n)
+// Space Complexity: O(1)
 
 const threeSum = nums => {
     nums.sort((a, b) => a - b);
