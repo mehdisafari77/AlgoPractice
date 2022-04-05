@@ -8,7 +8,7 @@ A subarray is a contiguous subsequence of the array. */
 
 // Time Complexity: O(n)
 
-// Space Complexity: O(1)
+// Space Complexity: O(n)
 
 function maxProduct(nums){
     let maxTillIndex = [nums[0]];
