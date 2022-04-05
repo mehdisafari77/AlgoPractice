@@ -10,9 +10,9 @@ You must write an algorithm that runs in O(log n) time.*/
 
 // Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
-// Time Complexity: O(n)
+// Time Complexity: O(log n)
 
-// Space Complexity: O(n)
+// Space Complexity: O(1)
 
 function findMin(nums) {
     let left = 0;
