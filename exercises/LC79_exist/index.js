@@ -4,9 +4,9 @@ The word can be constructed from letters of sequentially adjacent cells, where a
 
 // Link: https://leetcode.com/problems/word-search/
 
-// Time Complexity: O(n)
+// Time Complexity: O(N * M)
 
-// Space Complexity: O(n)
+// Space Complexity: O(1)
 
 function exist(board, word) {
     for (let x = 0; x < board[0].length; x++)
