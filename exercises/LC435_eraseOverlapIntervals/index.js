@@ -4,7 +4,7 @@
 
 // Time Complexity: O(N log N)
 
-// Space Complexity: O(N)
+// Space Complexity: O(1)
 
 const eraseOverlapIntervals = intervals => {
     if (intervals.length === 0) return 0;
