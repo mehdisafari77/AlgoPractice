@@ -22,4 +22,19 @@ const containsDuplicate = nums => {
     return false;
 };
 
+// Alt Solution using Hash Table
+function containsDuplicate(arr) {
+
+    let map = new Map();
+    
+    for (let i = 0; i < nums.length; i++) {
+        if (map.has(nums[i])) {
+            return true
+        }
+        map.set(nums[i])
+    }  
+    return false
+
+}
+
 module.exports = containsDuplicate;
