@@ -27,4 +27,22 @@ function twoSum(arr, target) {
     return res;
 }
 
+// Alt Solution | Hash Table
+// 90% faster than solution in leet code
+
+var twoSum = function(nums, target) {
+    
+    let map = new Map();
+        for (let i = 0; i< nums.length; i++) {
+            let targetNum = target - nums[i];
+            if (map.has(targetNum)) {
+                return [map.get(targetNum), i]
+            }
+            map.set(nums[i], i)
+        }
+        
+    };
+
+
+
 module.exports = twoSum;
