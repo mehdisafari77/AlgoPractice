@@ -4,9 +4,9 @@ Return the sorted string. If there are multiple answers, return any of them. */
 
 // Link: https://leetcode.com/problems/sort-characters-by-frequency/
 
-// Time Complexity: O(n)
+// Time Complexity: 
 
-// Space Complexity: O(n)
+// Space Complexity: 
 
 var frequencySort = function(s){
     let map = {};
