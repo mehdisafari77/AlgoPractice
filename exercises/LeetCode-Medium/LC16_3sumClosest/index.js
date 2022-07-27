@@ -41,4 +41,4 @@ var threeSumClosest = function(nums, target) {
     }
     return res;
   };
-  // testing new algoo
+  // testing new algo
