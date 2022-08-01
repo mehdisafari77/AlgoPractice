@@ -84,3 +84,5 @@ var fourSum = function (nums, target) {
 
     return solutionArrays;
 };
+
+// Algorithm added
