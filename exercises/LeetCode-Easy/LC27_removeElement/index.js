@@ -51,3 +51,5 @@ var removeElement = function (nums, val) {
     //nums.length = j; // Chop the surplus values - not needed for LC submission
     return j;
 };
+
+// test algo 
